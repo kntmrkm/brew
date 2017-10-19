@@ -29,8 +29,8 @@ git_init_if_necessary() {
     CORE_OFFICIAL_REMOTE="https://github.com/Homebrew/homebrew-core"
   elif [[ -n "$HOMEBREW_LINUX" ]]
   then
-    BREW_OFFICIAL_REMOTE="https://github.com/Linuxbrew/brew"
-    CORE_OFFICIAL_REMOTE="https://github.com/Linuxbrew/homebrew-core"
+    BREW_OFFICIAL_REMOTE="https://github.com/kntmrkm/brew"
+    CORE_OFFICIAL_REMOTE="https://github.com/kntmrkm/homebrew-core"
   fi
 
   safe_cd "$HOMEBREW_REPOSITORY"
